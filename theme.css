@@ -9,10 +9,12 @@
 	--foreground: rgb(255, 255, 255, 0.05);
 	--foreground-double: rgb(255, 255, 255, 0.1);
 	--foreground-triple: rgb(255, 255, 255, 0.15);
-	--gradient: linear-gradient(var(--gradient-direction), rgba(135, 206, 250, 1), rgba(70, 130, 180, 1)); /* голубой и стальной синий */
-	--gradient-20: linear-gradient(var(--gradient-direction), rgba(135, 206, 250, 0.2), rgba(70, 130, 180, 0.2));
-	--gradient-50: linear-gradient(var(--gradient-direction), rgba(135, 206, 250, 0.5), rgba(70, 130, 180, 0.5));
-	--gradient-90: linear-gradient(var(--gradient-direction), rgba(135, 206, 250, 0.9), rgba(70, 130, 180, 0.9));
+
+	--gradient: linear-gradient(45deg, #ff6b6b, #f06595);
+	--gradient-20: linear-gradient(45deg, rgba(255, 107, 107, 0.2), rgba(240, 101, 149, 0.2));
+	--gradient-50: linear-gradient(45deg, rgba(255, 107, 107, 0.5), rgba(240, 101, 149, 0.5));
+	--gradient-90: linear-gradient(45deg, rgba(255, 107, 107, 0.9), rgba(240, 101, 149, 0.9));
+
 	--text-shadow: 1;
 	--chat-embed: var(--background-secondary);
 	--discord-green: 67, 181, 129;
